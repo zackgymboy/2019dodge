@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.pnlGame = new System.Windows.Forms.Panel();
+            this.PnlGame = new System.Windows.Forms.Panel();
             this.tmrPlanet = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
-            // pnlGame
+            // PnlGame
             // 
-            this.pnlGame.BackColor = System.Drawing.Color.Silver;
-            this.pnlGame.Location = new System.Drawing.Point(69, 12);
-            this.pnlGame.Name = "pnlGame";
-            this.pnlGame.Size = new System.Drawing.Size(500, 400);
-            this.pnlGame.TabIndex = 0;
-            this.pnlGame.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlGame_Paint);
+            this.PnlGame.BackColor = System.Drawing.Color.Silver;
+            this.PnlGame.Location = new System.Drawing.Point(69, 12);
+            this.PnlGame.Name = "PnlGame";
+            this.PnlGame.Size = new System.Drawing.Size(500, 400);
+            this.PnlGame.TabIndex = 0;
+            this.PnlGame.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlGame_Paint);
             // 
             // tmrPlanet
             // 
@@ -52,7 +52,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(634, 461);
-            this.Controls.Add(this.pnlGame);
+            this.Controls.Add(this.PnlGame);
             this.Name = "frmDodge";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dodge";
@@ -63,7 +63,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel pnlGame;
+        private System.Windows.Forms.Panel PnlGame;
         private System.Windows.Forms.Timer tmrPlanet;
     }
 }

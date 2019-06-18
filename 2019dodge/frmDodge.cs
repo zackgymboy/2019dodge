@@ -54,7 +54,7 @@ namespace _2019dodge
             {
                 planet[i].movePlanet();
             }
-            pnlGame.Invalidate();//makes the paint event fire to redraw the panel
+            PnlGame.Invalidate();//makes the paint event fire to redraw the panel
         }
     }
 }
